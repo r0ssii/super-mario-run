@@ -3,8 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <title>Super Mario Run</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, minimal-ui"/>
+
+    <style>
+        #game {
+            margin: 0;
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
 </head>
 <body>
+
+<canvas id="game">
+
+</canvas>
 
 <script src="node_modules/phaser/dist/phaser.js"></script>
 <script src="bundle.js"></script>
